@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Harmony's Tunes</title>
+  <title>Harmony's Tunes Official Website</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,6 +49,9 @@
             <a class="nav-link js-scroll-trigger" href="#goals">Goals</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#request">Request Info</a>
+            </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
@@ -61,9 +64,14 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
+            <div class="characters">
+              <img class="logocharacters" alt="harmony and tunes" src="images/logocharacters.png">
+            </div>
             <h1 class="mb-5">Harmony's Tunes is an animated television program targeted at 4-to-8-year-old children
               that strives to improve their music literacy.</h1>
-            <a href="#musicliteracy" class="btn btn-outline btn-xl js-scroll-trigger">Learn More</a>
+            <div class="arrow bounce">
+									<a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#musicliteracy"></a>
+								</div>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
@@ -98,7 +106,7 @@
           <p>Current music-based television programs do not focus on the numerous standards involved in becoming music
             literate and target preschoolers, thus limiting what they can teach</p>
           <h2>Harmony's Tunes plans to change this.</h2>
-
+            <a href="#goals" class="btn btn-outline btn-xl js-scroll-trigger">See How</a>
           <div class="badges">
             <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
             <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
@@ -110,42 +118,45 @@
 
   <section class="goals" id="goals">
     <div class="container">
-      <div class="section-heading text-center">
-        <h2>Harmony's Tunes aims to:
-          <h4>
-            directly improve children’s music literacy by developing their ability to
-          </h4>
-          <h2 class="importantnote">
-            <i>
-              read, write, listen to, and appreciate music,
-            </i>
-          </h2>
-          <h4>
-            and their understanding of
-          </h4>
-          <h2 class="importantnote"> 
-            <i>
-              musical terms, instruments, and styles
-            </i>
-          </h2>
-          <h4>
-            while indirectly improving additional key areas including
-          </h4>
-          <h2 class="importantnote">
-            <i>
-              math, reading, self expression, listening, processing, social competence, and
-              problem solving
-            </i>
-          </h2>
-          <h4>
-            through the use of
-            <strong>
-              interactive and entertaining digital content.
-            </strong>
-          </h4>
-        </h2>
-        <!-- <p class="text-muted">Check out what you can do with this app theme!</p> -->
-        <hr>
+      <div class="row">
+        <div class="video col-lg-7">
+          <iframe width="560" height="349" src="https://player.vimeo.com/video/282138039" frameborder="0"
+            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div class="section-heading musicliteracyinfo col-lg-5">
+          <h5>Harmony's Tunes aims to directly improve children’s music literacy by developing their ability to
+            <h4 class="importantnote">
+              <i>
+                read, write, listen to, and appreciate music,
+              </i>
+            </h4>
+            <h5>
+              and their understanding of
+            </h5>
+            <h4 class="importantnote">
+              <i>
+                musical terms, instruments, and styles
+              </i>
+            </h4>
+            <h5>
+              while indirectly improving additional key areas including
+            </h5>
+            <h4 class="importantnote">
+              <i>
+                math, reading, self expression, listening, processing, social competence, and
+                problem solving
+              </i>
+            </h4>
+            <h5>
+              through the use of
+              <strong>
+                interactive and entertaining digital content.
+              </strong>
+            </h5>
+            </h4>
+            <!-- <p class="text-muted">Check out what you can do with this app theme!</p> -->
+            <hr>
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-4 my-auto">
@@ -203,14 +214,22 @@
     </div>
   </section>
 
-  <section class="cta">
+  <section class="request" id="request">
     <div class="cta-content">
       <div class="container">
-        <h3>A young composer.<br>Magical lands.<br>Musical superheroes.</h3>
-        <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Request more info!*</a>
-        <h6 class="moreinfo">*Includes bible and animated theme song</h6>
+        <div class="screenshotpic">
+          <img class="screenshot float-right" alt="harmony and tunes" src="images/screenshot.png">
+        </div>
+        <div class="otherinfo">
+          <div class="text float-left mx-auto">
+            <h3>A young composer.<br>Magical lands.<br>Musical superheroes.</h3>
+          </div>
+          <a href="mailto" class="requestinfo btn btn-outline btn-xl js-scroll-trigger">Request more info!*</a>
+          <h6 class="moreinfo">*Includes bible and animated theme song</h6>
+        </div>
       </div>
     </div>
+
     <div class="overlay"></div>
   </section>
 
@@ -232,7 +251,7 @@
         </li>
         <li class="list-inline-item social-google-plus">
           <a href="#">
-            <i class="fab fa-google-plus-g"></i>
+            <i class="far fa-envelope"></i>
           </a>
         </li>
       </ul>
@@ -267,5 +286,4 @@
   <script src="js/new-age.min.js"></script>
 
 </body>
-
 </html>
