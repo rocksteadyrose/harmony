@@ -125,7 +125,7 @@ section h2 {
 
 .video {
 	position: relative;
-	padding-bottom: 70%; 
+	padding-bottom: 80%; 
 	height: 0;
 }
 
@@ -397,7 +397,7 @@ section.cta .cta-content h3 {
 
 @media (min-width: 1200px) {
   .screenshot {
-    margin-top: -70px;
+    margin-top: -90px;
   }
 
 .musicliteracyinfo {
@@ -426,10 +426,6 @@ section.cta .cta-content h3 {
 }
 
 @media (max-width: 575px) {
-  .screenshot {
-    width: 50%;
-    padding-left: 30px;
-  }
 
   .requestinfo {
     width: 51%;
@@ -437,11 +433,6 @@ section.cta .cta-content h3 {
 }
 
 @media (max-width: 569px) {
-  .screenshot {
-    width: 80%;
-    display: block;
-    margin-right: 60px;
-  }
 
   .otherinfo {
     text-align: center;
@@ -458,9 +449,9 @@ section.cta .cta-content h3 {
 
 @media (min-width: 400px) and (max-width: 499px) {
   .screenshot {
-    width: 80%;
-    display: block;
-    margin-right: 60px;
+    /* display: block; */
+    width: 100%;
+    margin-right: 10px;
   }
 
   section.cta .cta-content h3 {
@@ -484,7 +475,7 @@ section.cta .cta-content h3 {
 
 @media (min-width: 500px) and (max-width: 569px) {
   .screenshot {
-    width: 80%;
+    width: 50%;
     display: block;
     margin-right: 60px;
   }
