@@ -623,3 +623,15 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+@media (min-width : 375px) {
+  .screenshot {
+    width: 100%;
+    margin: auto;
+  }
+
+  .btn-outline {
+    text-align: center;
+    margin: auto;
+  }
+}
