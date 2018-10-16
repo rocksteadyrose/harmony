@@ -547,6 +547,14 @@ section.contact ul.list-social li.social-facebook a:hover {
   background-color: #344e86;
 }
 
+section.contact ul.list-social li.social-instagram a {
+  background-color: #d30cc9;
+}
+
+section.contact ul.list-social li.social-instagram a:hover {
+  background-color: #b410a7;
+}
+
 section.contact ul.list-social li.social-google-plus a {
   background-color: #dd4b39;
 }
