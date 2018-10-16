@@ -451,7 +451,6 @@ section.cta .cta-content h3 {
   .screenshot {
     /* display: block; */
     width: 100%;
-    margin-right: 10px;
   }
 
   section.cta .cta-content h3 {
@@ -627,7 +626,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 @media (min-width : 375px) and (max-width: 569px) {
   .screenshot {
     width: 100%;
-    margin: auto;
+    margin-right: 15px;
   }
 
   .requestinfo {
