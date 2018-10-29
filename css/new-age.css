@@ -102,6 +102,14 @@
    background-color: transparent;
  }
  
+ a.nav-link.js-scroll-trigger {
+   color: white!important;
+ }
+
+ button.navbar-toggler.navbar-toggler-right {
+  color: white!important;
+}
+
  #mainNav .navbar-nav > li > a,
  #mainNav .navbar-nav > li > a:focus {
    color: #222222;
