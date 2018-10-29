@@ -700,4 +700,8 @@
   a.nav-link.js-scroll-trigger {
     color: white!important;
   }
+
+  .fa-arrow-down {
+    margin-top: -10px;
+  }
  }
