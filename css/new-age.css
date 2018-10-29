@@ -101,10 +101,6 @@
  #mainNav .navbar-nav > li > a.active:hover {
    background-color: transparent;
  }
- 
- a.nav-link.js-scroll-trigger {
-   color: white!important;
- }
 
  button.navbar-toggler.navbar-toggler-right {
   color: white!important;
@@ -699,5 +695,9 @@
 
   header.masthead {
     height: 650px;
+  }
+
+  a.nav-link.js-scroll-trigger {
+    color: white!important;
   }
  }
