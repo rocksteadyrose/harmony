@@ -538,8 +538,26 @@ section.request {
     width: 100%;
   }
 
-  section.themesong {
-    padding: 40px;
-  }
+}
 
+@media (max-width: 460px) {
+
+  .themesong {
+    height: 400px;
+   }
+
+.themecontents {
+  margin-top: -85px;
+}
+}
+
+@media (max-width: 460px) {
+
+  .themesong {
+    height: 300px;
+   }
+
+.themecontents {
+  margin-top: -125px;
+}
 }
