@@ -238,10 +238,6 @@ section.request {
   padding-top: 56.25%;
 }
 
-.themesong .themecontents {
- margin: -90px -90px;
-}
-
 .resp-iframe {
   position: absolute;
   top: 0;
@@ -529,16 +525,21 @@ section.request {
   padding: 10px 0 20px 0;
 }
 
-}
-
-@media (max-width: 575px) {
   .logocharacters {
     margin-top: -50px;
+  }
+
+  .infovideo {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .socials {
     width: 100%;
   }
 
-}
+  section.themesong {
+    padding: 40px;
+  }
 
+}
