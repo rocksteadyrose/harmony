@@ -22,9 +22,8 @@
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 
   <!-- Plugin CSS -->
-  <!-- <link rel="stylesheet" href="device-mockups/device-mockups.min.css"> -->
 
-  <!-- Custom styles for this template -->
+  <!-- Custom styles -->
   <link href="css/new-age.css" rel="stylesheet">
 
 </head>
@@ -50,7 +49,7 @@
             <a class="nav-link js-scroll-trigger" href="#bibleid">Pitch Bible</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#themesongid">Theme Song</a>
+            <a class="nav-link js-scroll-trigger" href="#themesongid">Animated Theme Song</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#infovideoid">Music Literacy Video</a>
@@ -61,64 +60,68 @@
   </nav>
 
   <header class="masthead">
-    <div class="container h-100">
+    <div class="container">
       <div class="row h-100">
-        <div class="col-lg-7 my-auto">
-          <div class="header-content mx-auto">
-            <div class="characters">
-              <img class="logocharacters" alt="harmony and tunes" src="images/logocharacters.png" id="aboutid">
-            </div>
-            <h1 class="mb-5">Harmony's Tunes is an animated television program targeted at 2-to-7-year-old children
-              that strives to improve their music literacy.</h1>
-            <div class="arrow bounce">
-              <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#themesongid"></a>
-            </div>
+        <div class="col-lg-12 my-auto">
+          <div class="characters w-100 mx-auto">
+            <img class="logocharacters img-fluid" alt="harmony and tunes" src="images/logocharacters.png" id="aboutid">
           </div>
         </div>
       </div>
+          <div class="row h-100">
+            <div class="col-lg-12 w-100 mx-auto text-center description">
+              <h1 class="mb-4">Harmony's Tunes is an animated television program targeted at 2-to-7-year-old children
+                that strives to improve their music literacy.</h1>
+              <div class="arrow bounce">
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#themesongid"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
     </div>
   </header>
 
 
   <section class="themesong" id="themesongid">
-    <div>
-        <div class="container text-center">
-          <h4>Theme Song</h4>
-        </div>
+    <div class="themecontents">
+      <div class="container text-center">
+        <h4>Animated Theme Song</h4>
+      </div>
 
-        <div class="container themesongvideo">
-          <iframe class="resp-iframe" src="https://player.vimeo.com/video/282137666" width="640" height="360"
-            frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-        </div>
-        <div>
+      <div class="container themesongvideo">
+        <iframe class="resp-iframe" src="https://player.vimeo.com/video/282137666" width="640" height="360"
+          frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+      </div>
+      <div>
   </section>
 
   <section class="request" id="bibleid">
-      <div class="container biblecontainer">
-        <div class="row h-100">
-          <div class="col-sm-6 my-auto text float-left">
-              <h4>A young composer.<br>Magical lands.<br>Musical superheroes.</h4>
-              <a href="https://1drv.ms/b/s!AuFwQlo-fVd1lkEtZarcaZURBV6z"
-                class="requestinfo btn btn-outline btn-xl js-scroll-trigger" target="_blank">DOWNLOAD BIBLE!</a>
-          </div>
-          <div class="col-sm-6 screenshotdiv float-right my-auto">
-              <img class="screenshotpic" alt="harmony and tunes" src="images/screenshot.png">
-          </div>
+    <div class="container biblecontainer">
+      <div class="row h-100">
+        <div class="col-sm-6 my-auto text float-left">
+          <h4>A young composer.<br>Magical lands.<br>Musical superheroes.</h4>
+          <a href="https://1drv.ms/b/s!AuFwQlo-fVd1lkEtZarcaZURBV6z"
+            class="requestinfo btn btn-outline btn-xl js-scroll-trigger" target="_blank">DOWNLOAD BIBLE!</a>
+        </div>
+        <div class="col-sm-6 screenshotdiv float-right my-auto">
+          <img class="screenshotpic" alt="harmony and tunes" src="images/screenshot.png">
         </div>
       </div>
+    </div>
   </section>
 
   <section class="goals" id="infovideoid">
     <div class="container goalsection">
-      <div class="row">
-        <div class="container text-center">
+      <div class="row h-100">
+        <div class="learnmoretext container text-center">
           <h4>Learn More With This Video</h4>
         </div>
-        <div class="video col-lg-7">
-          <iframe width="560" height="349" src="https://player.vimeo.com/video/282138039" frameborder="0"
-            webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div class="infovideo col-lg-7 my-auto float-left">
+          <iframe class="resp-iframe" src="https://player.vimeo.com/video/282138039" width="640" height="360"
+          frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         </div>
-        <div class="section-heading musicliteracyinfo col-lg-5">
+        <div class="section-heading musicliteracyinfo col-lg-5 my-auto float-right">
           <h5>Harmony's Tunes aims to directly improve children’s music literacy by developing their ability to
             <h4 class="importantnote">
               <i>
@@ -149,25 +152,7 @@
               </strong>
             </h5>
             </h4>
-            <!-- <p class="text-muted">Check out what you can do with this app theme!</p> -->
             <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 my-auto">
-          <div class="device-container">
-            <div class="device-mockup iphone6_plus portrait white">
-              <div class="device">
-                <div class="screen">
-                  <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                  <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt=""> -->
-                </div>
-                <div class="button">
-                  <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -178,15 +163,6 @@
     <div class="container">
       <p>&copy; Glitter & Glue Entertainment 2019. All Rights Reserved.</p>
       <ul class="list-inline">
-        <!-- <li class="list-inline-item">
-          <a href="#">Privacy</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">Terms</a>
-        </li>
-        <li class="list-inline-item">
-          <a href="#">FAQ</a>
-        </li> -->
       </ul>
     </div>
   </footer>
