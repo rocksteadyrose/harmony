@@ -515,14 +515,19 @@ section.request {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 575px) {
   .screenshotdiv {
     width: 90%;
     margin: 0 auto;
+    padding-top: 10px;
   }
 
   .text, .textrogers {
     text-align: center;
+  }
+
+  .textrogers {
+    padding-bottom: 20px;
   }
 }
 
@@ -531,6 +536,7 @@ section.request {
   .biblecontainer {
     margin: auto;
     text-align: center;
+    margin-top: 40px;
   }
 
   .indexscreenshotcontainer {
@@ -577,19 +583,36 @@ section.request {
 }
 
 @media (max-width: 400px) {
-  .request {
-    margin-bottom: -70px;
+
+  .themesongrogers {
+    margin-bottom: -10px;
+  }
+
+  .biblecontainerindex {
+    margin: 12px 0 -90px 0;
+  }
+
+  .biblecontainerrogers {
+    margin: -2px 0 -8px 0;
+  }
+
+  .goalsectionindex {
+    margin-bottom: -2px;
   }
 
   .textrogers {
-    padding-bottom: 80px;
+    padding-bottom: 90px;
   }
 
   .text {
-    padding-bottom: 10px;
+    padding-bottom: 50px;
   }
 
   section.goalsrogers {
     margin-top: -140px;
+  }
+
+  .contact {
+    margin-top: -20px;
   }
 }
