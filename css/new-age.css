@@ -392,7 +392,7 @@ section.request {
  }
  
  .moreinfo {
-   padding-top: 30px;
+   padding-top: 20px;
  }
  
  footer {
@@ -515,14 +515,31 @@ section.request {
   }
 }
 
+@media (max-width: 767px) {
+  .screenshotdiv {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .text, .textrogers {
+    text-align: center;
+  }
+}
+
+
 @media (max-width: 575px) {
   .biblecontainer {
     margin: auto;
     text-align: center;
   }
 
+  .indexscreenshotcontainer {
+    width: 90%;
+    margin: 0 auto;
+  }
+
    section.request {
-  padding: 10px 0 20px 0;
+  padding: 10px 0 70px 0;
 }
 
   .logocharacters {
@@ -549,9 +566,6 @@ section.request {
 .themecontents {
   margin-top: -85px;
 }
-}
-
-@media (max-width: 460px) {
 
   .themesong {
     height: 300px;
@@ -560,4 +574,22 @@ section.request {
 .themecontents {
   margin-top: -125px;
 }
+}
+
+@media (max-width: 400px) {
+  .request {
+    margin-bottom: -70px;
+  }
+
+  .textrogers {
+    padding-bottom: 80px;
+  }
+
+  .text {
+    padding-bottom: 10px;
+  }
+
+  section.goalsrogers {
+    margin-top: -140px;
+  }
 }
