@@ -104,11 +104,21 @@
 
  button.navbar-toggler.navbar-toggler-right {
   color: white!important;
+  border: none;
+  outline:none;
+}
+
+button.navbar-toggler.navbar-toggler-right:hover {
+  color:#fdcc52!important;
+}
+
+button.navbar-toggler.navbar-toggler-right:active {
+  color:white!important;
 }
 
  #mainNav .navbar-nav > li > a,
  #mainNav .navbar-nav > li > a:focus {
-   color: #222222;
+   color: white;
  }
  
  #mainNav .navbar-nav > li > a:hover,
@@ -224,18 +234,16 @@
 
  section.themesong {
   position: relative;
-  padding: 150px 0;
+  padding: 35px 0;
   color: black;
+}
+
+.themesong h4 {
+  padding-bottom: 10px;
 }
 
 section.request {
   background-color: rgb(45, 189, 255);
-}
-
-.themesongvideo, .infovideo {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
 }
 
 .resp-iframe {
@@ -459,6 +467,25 @@ section.request {
    padding: 15px 45px;
  }
  
+ @media (min-width: 1200px) {
+
+  .goalsectionrogers .infovideo, .themesongvideo {
+    padding: 300px 0 0 0;
+  }
+
+  .goalsectionrogers .musicliteracyinfo {
+    padding: 10px 0 0 0;
+  }
+ }
+
+ @media (max-width: 1200px) {
+  .themesongvideo, .infovideo {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+  }
+ }
+
  @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
@@ -566,20 +593,25 @@ section.request {
 @media (max-width: 460px) {
 
   .themesong {
-    height: 400px;
+    height: 355px;
+    padding: 10px 0;
    }
 
-.themecontents {
-  margin-top: -85px;
-}
-
-  .themesong {
-    height: 300px;
+   .themesongrogers h4 {
+     margin-top: -10px;
    }
 
-.themecontents {
-  margin-top: -125px;
-}
+   .biblecontainer {
+    margin: 15px 0 -90px 0;
+   }
+
+  .text {
+     padding-bottom: 50px;
+   }
+
+   .textrogers {
+    padding-bottom: 20px;
+   }
 }
 
 @media (max-width: 400px) {
