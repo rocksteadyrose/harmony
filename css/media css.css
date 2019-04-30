@@ -1,0 +1,246 @@
+
+ /* @media (min-width: 400px) and (max-width: 499px) {
+   /* .screenshot {
+     width: 100%;
+   } */
+ 
+   section.cta .cta-content h3 {
+     color: black;
+     margin-left: 45px;
+   }
+ 
+   .requestinfo {
+     padding-right: -200px;
+     width: 80%;
+   }
+ /* 
+   .video { 
+     position: relative; 
+     overflow: hidden; 
+     width: 100;
+     height: auto; 
+   } */
+ 
+ } */
+ 
+ /* @media (min-width: 500px) and (max-width: 569px) {
+   /* .screenshot {
+     width: 50%;
+     display: block;
+     margin-right: 60px;
+   } */
+ 
+   /* section.cta .cta-content h3 {
+     color: black;
+     margin-left: 150px;
+   }
+ 
+   .requestinfo {
+     padding-right: -200px;
+     width: 80%;
+   }
+ 
+ } */ */
+
+  /* @media (min-width: 1200px) {
+   /* .screenshot {
+     margin-top: -90px;
+   } */
+
+   section#goals.goals {
+    padding: 30px 0;
+    height: 85%;
+  }
+
+   /* section#request.request {
+     padding: 150px 0;
+   } */
+
+ .musicliteracyinfo {
+   padding: 65px 0 0 30px;
+ }
+ /* 
+   .video {
+     position: relative;
+     padding-bottom: 70%; 
+     margin-top: 200px;
+     height: 0;
+   } */
+ } */
+ 
+ /* @media (min-width: 768px) {
+   section.cta .cta-content h2 {
+     font-size: 80px;
+   }
+ 
+   .video {
+     position: relative;
+     padding-bottom: 70%; 
+     margin-top: -130px;
+     height: 0;
+   }
+ } */
+ 
+ /* @media (max-width: 575px) {
+ 
+   .requestinfo {
+     width: 51%;
+   }
+ }
+ 
+ @media (max-width: 569px) {
+ 
+   .otherinfo {
+     text-align: center;
+   }
+ 
+   .text {
+     margin: 10px 0 0 120px;
+   }
+ 
+   .requestinfo {
+     width: 51%;
+   }
+ } */
+ 
+  
+ /* @media (min-width: 992px) {
+   section.features .device-container {
+     margin-bottom: 0;
+   }
+
+   section#goals.goals {
+    height: 78%;
+    padding: 60px 0;
+  }
+ } */
+
+  /* @media (min-width: 992px) {
+   .screenshot {
+     margin-top: -70px;
+   }
+ } */
+ 
+ /* @media (max-width: 768px) {
+   /* .screenshot {
+     width: 46%;
+     padding-left: 30px;
+   }
+  */
+   /* .video {
+     position: relative;
+     padding-bottom: 70%; 
+     margin-top: -90px;
+     height: 0;
+   }
+ } */ */
+ 
+ /* @media (min-width: 768px) {
+   section.download .badges .badge-link {
+     display: inline-block;
+     margin-bottom: 0;
+   }
+ }
+ 
+ 
+ @media (min-width: 768px) {
+   section.download h2 {
+     font-size: 70px;
+   }
+ } */
+ 
+  /* @media (min-width: 992px) {
+   header.masthead {
+     height: 100vh;
+     width: 140%;
+     min-height: 775px;
+     padding-top: 0;
+     padding-bottom: 0;
+   }
+ 
+   header.masthead .mb-5 {
+     width: 200%;
+     margin-left: -250px;
+   }
+ 
+   header.masthead .header-content {
+     margin-bottom: 0;
+     /* text-align: left; */
+   /* }
+   header.masthead .header-content h1 {
+     font-size: 50px;
+   /* } */
+   /* header.masthead .device-container { */
+     /* max-width: 325px; */
+   /* } */
+   /* } */
+
+    
+ /* @media (max-width: 991px) {
+   /* .screenshot {
+     width: 50%;
+     margin-left: 20px;
+   } */
+ 
+   /* .musicliteracyinfo {
+    text-align: center;
+   } */
+ /* } */
+
+ /* @media (min-width: 992px) and (max-width: 1200px) {
+  /* .screenshotpic {
+    margin-top: 20px;
+  } */
+/* } */ 
+ 
+
+ /* @media (min-width : 375px) and (max-width: 569px) {
+   /* .screenshot {
+     width: 100%;
+     margin-right: 15px;
+   } */
+ 
+   .requestinfo {
+    text-align: center;
+    padding: 10px 0px 10px 0;
+  }
+} */
+
+/* @media (max-width: 400px) {
+
+  .socials li {
+    width: 30%;
+    margin: 0 10px 30px 10px;
+  }
+
+  .logocharacters {
+   margin-top: -75px;
+ }
+
+ section#goals.goals {
+   height: 800px;
+   padding: 110px 0 300px 0;
+ }
+
+ section#bible.request {
+   height: 400px;
+   padding: 10px 0 20px 0;
+ }
+
+ .moreinfo {
+   margin-top: -20px;
+   font-size: 10px;
+ }
+
+ header.masthead {
+   height: 650px;
+ }
+
+ a.nav-link.js-scroll-trigger {
+   color: white!important;
+ }
+
+ .fa-arrow-down {
+   margin-top: -300px;
+ }
+} */
