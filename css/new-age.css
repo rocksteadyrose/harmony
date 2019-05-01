@@ -129,6 +129,10 @@ button.navbar-toggler.navbar-toggler-right:active {
  .nav-item {
    padding-right: 9px;
  }
+
+ .fa-arrow-down:hover {
+   text-decoration: none;
+ }
  
  .logocharacters {
   height: auto;
@@ -618,6 +622,10 @@ section.request {
 
   .themesongrogers {
     margin-bottom: -10px;
+  }
+
+  .themesong {
+    height: 290px;
   }
 
   .biblecontainerindex {
