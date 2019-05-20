@@ -1,11 +1,20 @@
 <?php
-	if(isset($_REQUEST['path']) && $_REQUEST['path'] != "") {
-
-		$file_url = $_REQUEST['bible.pdf'];
-		$pdfname = basename ($file_url);
-		header('Content-Type: application/pdf');
-		header("Content-Transfer-Encoding: Binary");
-		header("Content-disposition: attachment; filename=".$pdfname);
-		readfile($file_url);
-	}
+if(!empty($_GET['bible.pdf'])){
+    $fileName = basename($_GET['bible.pdf']);
+    $filePath = 'bible.pdf/'.$fileName;
+    if(!empty($fileName) && file_exists($filePath)){
+        // Define headers
+        header("Cache-Control: public");
+        header("Content-Description: File Transfer");
+        header("Content-Disposition: attachment; filename=$fileName");
+        header("Content-Type: application/zip");
+        header("Content-Transfer-Encoding: binary");
+        
+        // Read the file
+        readfile($filePath);
+        exit;
+    }else{
+        echo 'The file does not exist.';
+    }
+}
 ?>
