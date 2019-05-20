@@ -328,6 +328,19 @@ section.request {
 
  .biblecontainer {
    height: 450px;
+   font-size: 12px;
+ }
+
+ .onedrive {
+   margin-top: 10px;
+ }
+
+ .onedrive a {
+   text-decoration: none;
+ }
+
+ .onedrive a:hover {
+   color: #7b4397;
  }
  
  .requestinfo {
