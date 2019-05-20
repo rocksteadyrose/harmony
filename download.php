@@ -1,7 +1,7 @@
 <?php
 if(!empty($_GET['bible.pdf'])){
-    $fileName = basename($_GET['bible.pdf']);
-    $filePath = 'bible.pdf/'.$fileName;
+    $fileName = basename($_GET['images/bible.pdf']);
+    $filePath = 'images/bible.pdf'.$fileName;
     if(!empty($fileName) && file_exists($filePath)){
         // Define headers
         header("Cache-Control: public");
