@@ -1,5 +1,5 @@
 <?php
-if(!empty($_GET['bible.pdf'])){
+if(!empty($_GET['images/bible.pdf'])){
     $fileName = basename($_GET['images/bible.pdf']);
     $filePath = 'images/bible.pdf'.$fileName;
     if(!empty($fileName) && file_exists($filePath)){
