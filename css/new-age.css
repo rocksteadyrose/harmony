@@ -486,12 +486,16 @@ section.request {
  
  @media (min-width: 1200px) {
 
-  .goalsectionrogers .infovideo, .themesongvideo {
+  .goalsectionrogers .infovideo, .themesongvideo, .goalsectionindex .infovideo {
     padding: 300px 0 0 0;
   }
 
   .goalsectionrogers .musicliteracyinfo {
     padding: 10px 0 0 0;
+  }
+
+ .goalsectionindex .musicliteracyinfo {
+    padding: 20px 0 0 0;
   }
  }
 
