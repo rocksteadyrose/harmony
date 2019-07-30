@@ -569,6 +569,10 @@ section.request {
   section.goals {
     padding: 20px 0;
   }
+
+  .themesongrogers, .themesongpitch {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 575px) {
