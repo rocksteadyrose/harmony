@@ -573,6 +573,10 @@ section.request {
   .themesongrogers, .themesongpitch {
     text-align: center;
   }
+
+  .themesongpitch .concept, .themesongrogers .concept {
+    margin-top: 30px!important;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 575px) {
@@ -655,7 +659,7 @@ section.request {
   }
 
   .themesong {
-    height: 530px;
+    height: 590px;
   }
 
   .biblecontainerindex {
