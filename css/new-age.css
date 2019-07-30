@@ -494,11 +494,11 @@ section.request {
  
  @media (min-width: 1200px) {
 
-  .goalsectionrogers .infovideo, .themesongvideo, .goalsectionindex .infovideo {
+  .goalsectionrogers .infovideo, .themesongvideo, .goalsectionindex .infovideo, .goalsectionpitch .infovideo {
     padding: 300px 0 0 0;
   }
 
-  .goalsectionrogers .musicliteracyinfo {
+  .goalsectionrogers .musicliteracyinfo, .goalsectionpitch .musicliteracyinfo {
     padding: 10px 0 0 0;
   }
 
@@ -578,11 +578,11 @@ section.request {
     padding-top: 10px;
   }
 
-  .text, .textrogers {
+  .text, .textrogers, .textpitch {
     text-align: center;
   }
 
-  .textrogers {
+  .textrogers, .textpitch {
     padding-bottom: 20px;
   }
 }
@@ -638,26 +638,27 @@ section.request {
      padding-bottom: 50px;
    }
 
-   .textrogers {
+   .textrogers, .textpitch {
     padding-bottom: 20px;
    }
 }
 
 @media (max-width: 400px) {
 
-  .themesongrogers {
+  .themesongrogers, .themesongpitch {
     margin-bottom: -10px;
+    text-align: center;
   }
 
   .themesong {
-    height: 290px;
+    height: 530px;
   }
 
   .biblecontainerindex {
     margin: 12px 0 -90px 0;
   }
 
-  .biblecontainerrogers {
+  .biblecontainerrogers, .biblecontainerpitch {
     margin: -2px 0 -8px 0;
   }
 
@@ -665,7 +666,7 @@ section.request {
     margin-bottom: -2px;
   }
 
-  .textrogers {
+  .textrogers, .textpitch {
     padding-bottom: 90px;
   }
 
@@ -673,7 +674,7 @@ section.request {
     padding-bottom: 50px;
   }
 
-  section.goalsrogers {
+  section.goalsrogers, section.goalspitch {
     margin-top: -140px;
   }
 
